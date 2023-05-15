@@ -1,0 +1,17 @@
+(module Wire_Red_Single (layer F.Cu) (tedit 5FB46634)
+  (descr "wire red")
+  (tags wire)
+  (fp_text reference REF** (at 0 5.08) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Wire_Red_Single (at 0 2.54) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_poly (pts (xy 0.508 1.15623) (xy -0.508 1.15623) (xy -0.508 -35.56) (xy 0.508 -35.56)) (layer F.SilkS) (width 0.1))
+  (pad 1 thru_hole roundrect (at 0 0) (size 1.9 3) (drill 1) (layers B.Cu) (roundrect_rratio 0.421))
+  (model ${KICAD_USER_3DMOD}/Wire_Red.wrl
+    (offset (xyz 0 0 0.5))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 0 0 0))
+  )
+)

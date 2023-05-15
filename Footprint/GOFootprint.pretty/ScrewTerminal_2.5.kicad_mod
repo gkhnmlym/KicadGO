@@ -1,0 +1,16 @@
+(module ScrewTerminal_2.5 (layer F.Cu) (tedit 5FB46511)
+  (descr "Screw Terminal 2.5mm")
+  (tags "screw terminal")
+  (fp_text reference REF** (at 0 3.175) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value ScrewTerminal_2.5 (at 0 -3.175) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 0) (size 4 4) (drill 1) (layers B.Cu))
+  (model ${KICAD_USER_3DMOD}/Terminal_Screw_M2.5.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
