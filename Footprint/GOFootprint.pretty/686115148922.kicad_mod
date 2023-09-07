@@ -29,7 +29,7 @@
   (fp_line (start 9.8 3.5) (end -9.8 3.5)
     (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp e26c9914-1ceb-4bb5-bfec-95400126751e))
   (fp_rect (start 10.6 3.6) (end -10.5 -3.6)
-    (stroke (width 0.1) (type default)) (fill none) (layer "Margin") (tstamp d3185f16-7866-40e6-aa7b-7aa042805099))
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.CrtYd") (tstamp d3185f16-7866-40e6-aa7b-7aa042805099))
   (fp_line (start -9.8 -2.3) (end 9.8 -2.3)
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp a9d93f9c-c8bd-4fd4-8b66-f69756e465e7))
   (fp_line (start -9.8 3.5) (end -9.8 -2.3)
@@ -70,4 +70,9 @@
     (solder_mask_margin 0.102) (tstamp a1ef7b70-784d-47e1-8db9-1761a3a8092a))
   (pad "Z2" smd rect (at 9.3 0) (size 2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp c35aeb2d-d152-4861-9e08-96e8413051e4))
+  (model "${GO3DMODEL}/686115148922.stp"
+    (offset (xyz 0 0 1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
