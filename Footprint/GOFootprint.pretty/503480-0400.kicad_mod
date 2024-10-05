@@ -1,0 +1,227 @@
+(footprint "503480-0400"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "503480-0400")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at -0.369 1.526 0)
+		(layer "F.SilkS")
+		(uuid "74b5a520-3e35-4412-a6aa-207b9f9c5d98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "503480-0400"
+		(at -0.369 1.526 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "97e22e82-44cd-481d-8683-f1f91cc43839")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dfcfb8f-a756-4992-b5c7-dd61d3b997d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a538d74-a936-4075-9985-b3b8d96aa149")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86d45121-bb83-4378-9af9-e75ef49d7f5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.85 0)
+		(end -1.85 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22e5e0af-aca8-4269-97ce-7e44b06d9902")
+	)
+	(fp_line
+		(start -1.85 0)
+		(end -1.172 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "864c67eb-9fdd-42f9-8541-700a60a6b054")
+	)
+	(fp_line
+		(start -1.85 3.6)
+		(end 1.85 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f48a536c-35a9-4362-8aff-d1518f0dff14")
+	)
+	(fp_line
+		(start 1.85 0)
+		(end 1.172 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a76db38-46d8-4a28-99a1-f0df1698ca80")
+	)
+	(fp_line
+		(start 1.85 3.6)
+		(end 1.85 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50eec52e-6784-4eea-aefb-b566f7eb0489")
+	)
+	(fp_circle
+		(center -0.757 -0.476)
+		(end -0.757 -0.449)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c7b2ae9d-ce88-4af4-8714-7b349f1e879d")
+	)
+	(fp_line
+		(start -1.85 0)
+		(end 1.85 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43d552a7-8e50-486d-af32-0eedc87030d9")
+	)
+	(fp_line
+		(start -1.85 3.6)
+		(end -1.85 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "699030b2-c662-4e65-b733-6e4fb3f001b4")
+	)
+	(fp_line
+		(start 1.85 0)
+		(end 1.85 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a237bc5-5163-4a7f-a66b-2efc958bfd0a")
+	)
+	(fp_line
+		(start 1.85 3.6)
+		(end -1.85 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1dc6952-041d-47c9-abeb-ee9a43b6fe82")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.369 1.526 0)
+		(layer "F.Fab")
+		(uuid "848c0c88-acda-4c4d-a939-82a3d3c96402")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0.3)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "31069ffc-4bcc-44a5-8a1e-7c996e8bf135")
+	)
+	(pad "2" smd rect
+		(at -0.25 0.3)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bf7e2238-8b3f-4a3a-a753-1f23cbdcb0a9")
+	)
+	(pad "3" smd rect
+		(at 0.25 0.3)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3754b47e-aae4-4a22-b528-fd66c5b7e428")
+	)
+	(pad "4" smd rect
+		(at 0.75 0.3)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fcd8dde0-e818-4493-a92b-09bae8996422")
+	)
+	(pad "5" smd rect
+		(at -1.54 2.95)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "794463f3-27fc-4311-90ff-455dd7626887")
+	)
+	(pad "6" smd rect
+		(at 1.54 2.95)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "00bf9a86-182b-43ba-bf7b-0cb5c0538d23")
+	)
+	(model "C:/Users/ghost/Documents/GitHub/KicadGO/3dmodels_/503480-0400.stp"
+		(offset
+			(xyz 0 -3.58999986 0.01999999925)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
