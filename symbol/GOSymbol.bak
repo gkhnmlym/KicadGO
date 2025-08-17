@@ -16291,7 +16291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IND_BOURNS_SDR0503"
+		(property "Footprint" "GOFootprint:IND_BOURNS_SDR0503"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16318,14 +16318,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "SDR0503-103JL"
